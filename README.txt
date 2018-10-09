@@ -1,5 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/ramenhog/pen/MpORPa.
+A Pen created at CodePen.io. You can find this one at https://codepen.io/kehui/pen/zzedLe.
 
- Playing around with CSS Grid in responsive image galleries.
-
-Can you tell what I was craving when I made this?.....
+ Responsive vertically tiled image gallery, comes with lightbox using jQuery and Bootstrap modal popup.

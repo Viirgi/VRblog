@@ -3,11 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Grid Responsive Image Gallery</title>
+  <title>Tiled Image Gallery</title>
   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
 
-  
       <link rel="stylesheet" href="css/style.css">
 
   
@@ -15,91 +16,42 @@
 
 <body>
 
-  <div class="message">
-  Sorry, your browser does not support CSS Grid. 😅
+  <div class="container">
+	<div class="gallery">
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr01/original-9161-1439317330-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr08/original-1654-1439317465-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />		
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr08/original-13354-1439321173-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr04/original-25740-1439321209-5.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr08/original-9292-1439319916-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr05/original-6710-1439319334-17.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr02/original-16901-1439320287-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr04/original-29345-1439321306-8.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr15/original-20286-1439320376-10.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr02/original-6989-1439317507-15.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr11/original-8867-1439317446-6.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr03/original-22498-1439319085-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+	</div> 
 </div>
-<section class="section">
-  <h1>Nom Nom Gallery</h1>
-  <div class="grid">
-    <div class="item">
-      <div class="item__details">
-        jelly-o brownie sweet
-      </div>
-    </div>
-    <div class="item item--large">
-      <div class="item__details">
-        Muffin jelly gingerbread 
-      </div>
-    </div>
-    <div class="item item--medium">
-      <div class="item__details">
-        sesame snaps chocolate
-      </div>
-    </div>
-    <div class="item item--large">
-      <div class="item__details">
-        Oat cake
-      </div>
-    </div>
-    <div class="item item--full">
-      <div class="item__details">
-         jujubes cheesecake
-      </div>
-    </div>
-    <div class="item item--medium">
-      <div class="item__details">
-        Dragée pudding brownie
-      </div>
-    </div>
-    <div class="item item--large">
-      <div class="item__details">
-        Oat cake
-      </div>
-    </div>
-    <div class="item">
-      <div class="item__details">
-        powder toffee
-      </div>
-    </div>
-    <div class="item item--medium">
-      <div class="item__details">
-        pudding cheesecake
-      </div>
-    </div>
-    <div class="item item--large">
-      <div class="item__details">
-        toffee bear claw 
-      </div>
-    </div>
-    <div class="item">
-      <div class="item__details">
-        cake cookie croissant
-      </div>
-    </div>
-    <div class="item item--medium">
-      <div class="item__details">
-        liquorice sweet roll
-      </div>
-    </div>
-    <div class="item item--medium">
-      <div class="item__details">
-        chocolate marzipan
-      </div>
-    </div>
-    <div class="item item--large">
-      <div class="item__details">
-        danish dessert lollipop
-      </div>
-    </div>
-    <div class="item">
-      <div class="item__details">
-        sugar plum dragée
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
       </div>
     </div>
   </div>
 </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
   
-  
+
+    <script  src="js/index.js"></script>
+
+
+
 
 </body>
 
